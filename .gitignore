@@ -9,3 +9,6 @@ db.sqlite3
 
 # static files
 files/
+
+# virtual environment
+venv/

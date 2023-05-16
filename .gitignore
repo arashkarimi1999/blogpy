@@ -12,3 +12,6 @@ files/
 
 # virtual environment
 venv/
+
+# vscode files
+.vscode

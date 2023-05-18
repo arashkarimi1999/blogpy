@@ -9,7 +9,7 @@ admin.site.register(UserProfile, UserProfileAdmin)
 
 
 class AtricleAdmin(admin.ModelAdmin):
-    list_display = ['title', 'category', 'created_at']
+    list_display = ['title', 'category', 'created_at', 'promote']
     search_fields = ['title', 'content']
     
 admin.site.register(Article, AtricleAdmin)
